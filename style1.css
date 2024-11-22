@@ -1,0 +1,97 @@
+/* Styles de base */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Titre de la page */
+h1 {
+    margin: 20px;
+    font-size: 2em;
+    color: #333;
+}
+a{
+    position: relative;
+    bottom: 50px;
+    left: 300px;
+    color: blue;
+    font-size:large;
+}
+
+/* Style pour les lignes de produits avec une bordure noire entre chaque ligne */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+}
+
+table tr {
+    border-bottom: 2px solid #ccc; /* Ligne noire entre chaque produit */
+}
+
+.product-cell {
+    display: flex;
+    align-items: center;
+}
+
+.product-image {
+    width: 80px; /* Ajuster la taille de l'image selon vos besoins */
+    height: auto;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.product-name {
+    font-weight: bold;
+}
+
+/* Style pour la quantité avec boutons de contrôle */
+.quantity-control {
+    display: flex;
+    align-items: center;
+}
+
+.quantity-control button {
+    width: 25px;
+    height: 25px;
+    border: 1px solid #ccc;
+    background-color: #f7f7f7;
+    cursor: pointer;
+}
+
+.quantity-control input {
+    width: 40px;
+    text-align: center;
+    margin: 0 5px;
+    border: none; 
+    background: transparent;
+}
+
+.delete-btn {
+    background: none;
+    border: none;
+    color: grey;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+.delete-btn:hover {
+    color: black;
+}
+
+strong{
+    position: relative;
+    top: 50px;
+    left: 300px;
+
+}
